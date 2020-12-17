@@ -1,5 +1,6 @@
 # IntroBio2020_at
-This was created in the IntroBio2020 class on SFC.(DATA SCIENCE FOR BIOINFORMATICS [DS2], バイオインフォマティクスのデータサイエンス[DS2])
+This was created in the IntroBio2020 class on SFC.
+(DATA SCIENCE FOR BIOINFORMATICS [DS2], バイオインフォマティクスのデータサイエンス[DS2])
 
 This is a simple analysis to learn the Reproducible and Robust datascience.
 

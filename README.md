@@ -7,7 +7,7 @@ This is a simple analysis to learn the Reproducible and Robust datascience.
 ---
 
 
-- [Assembly E. coli Genome](#E. coli Assembly)
+- [Assembly E. coli Genome(大腸菌ゲノムをダウンロードし, 遺伝子数, rRNA, tRNAなどをカウントする)](#E. coli Assembly)
 
 
 ---

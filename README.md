@@ -19,7 +19,7 @@ This is a simple analysis to learn the Reproducible and Robust datascience.
 wget https://github.com/Tom1Ru/IntroBio2020_at/blob/main/Assembly_run.zip
 unzip Assembly_run.zip
 cd Assembly_run/
-(bash scripts/run.sh &) >& log.$(date +%F).txt
+(bash scripts/run_all.sh &) >& log.$(date +%F).txt
 tail -f log.$(date +%F).txt
 ```
 

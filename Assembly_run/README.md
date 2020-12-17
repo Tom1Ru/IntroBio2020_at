@@ -9,7 +9,7 @@ Project started 2020-11-03.
 
 A complete genome of "CP009273.1 Escherichia coli BW25113" was retrieved from the NCBI FTP site. 
 
-- [StartAnalysis](#StartAnalysis)
+- [Start Analysis](#StartAnalysis)
 - [project directory structures](#project-directory-structures)
 - [scripts](#scripts)
 - [data](#data)

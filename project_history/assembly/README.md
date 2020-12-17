@@ -94,8 +94,7 @@ MD5 (/GCA_000750555.1_ASM75055v1_genomic.gff.gz) = 4e9a623639be813ccc4bc96ae58c1
 ```
 cat analysis/output.txt
 
-
->U00096.3 Escherichia coli str. K-12 substr. MG1655, complete genome
+Escherichia coli BW25113, complete genome
 
 4374 CDS
 4303 gene

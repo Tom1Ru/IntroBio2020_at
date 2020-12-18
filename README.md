@@ -12,7 +12,6 @@ This is a simple analysis to learn the Reproducible and Robust datascience.
 
 
 - [Assembly E. coli Genome](#E.coli_Assembly)
-- [ssa](#sssa)
 
 ---
 

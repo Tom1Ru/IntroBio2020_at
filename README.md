@@ -6,6 +6,9 @@ This was created in the IntroBio2020 class on SFC.
 This is a simple analysis to learn the Reproducible and Robust datascience.
 
 ---
+- /project_history：作業ディレクトリ
+- /Assembly_run：解析ディレクトリ
+---
 
 
 - [Assembly E. coli Genome](#E.coli_Assembly)

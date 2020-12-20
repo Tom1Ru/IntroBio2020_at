@@ -40,33 +40,8 @@ tommymac@tomitaatsumotonoMacBook-Pro Assembly_run % find . | sort
 ./README.md
 ./analysis
 ./analysis/.DS_Store
-./analysis/2020-12-16
-./analysis/2020-12-16/.DS_Store
-./analysis/2020-12-16/output.txt
-./analysis/2020-12-17
-./analysis/2020-12-17/.DS_Store
-./analysis/2020-12-17/output.txt
-./analysis/2020-12-20
-./analysis/2020-12-20/.DS_Store
-./analysis/2020-12-20/output.txt
-./analysis/output.txt
 ./data
 ./data/.DS_Store
-./data/2020-12-16
-./data/2020-12-16/GCA_000750555.1_ASM75055v1_genomic.fna
-./data/2020-12-16/GCA_000750555.1_ASM75055v1_genomic.gff
-./data/2020-12-16/md5checksums.txt
-./data/2020-12-17
-./data/2020-12-17/GCA_000750555.1_ASM75055v1_genomic.fna
-./data/2020-12-17/GCA_000750555.1_ASM75055v1_genomic.gff
-./data/2020-12-17/md5checksums.txt
-./data/2020-12-20
-./data/2020-12-20/GCA_000750555.1_ASM75055v1_genomic.fna
-./data/2020-12-20/GCA_000750555.1_ASM75055v1_genomic.gff
-./data/2020-12-20/md5checksums.txt
-./log.2020-12-16.txt
-./log.2020-12-17.txt
-./log.2020-12-20.txt
 ./scripts
 ./scripts/.DS_Store
 ./scripts/run_all.sh
@@ -144,14 +119,17 @@ MD5 (/GCA_000750555.1_ASM75055v1_genomic.gff.gz) = 4e9a623639be813ccc4bc96ae58c1
 
 ## reproducibility
 
-出力ファイルの整合性確認
+出力ファイルの整合性確認.
+下記のようにdiffで判断
+Use the diff command to check the results.
 ```
 diff analysis/output.txt analysis/2020-12-16/output.txt
 diff analysis/output.txt analysis/2020-12-17/output.txt
 ```
 
 ### environments
-環境情報
+テスト環境情報.
+以下の環境で動作を確認済み
 1)
 MacBoookPro(自分)
 ```

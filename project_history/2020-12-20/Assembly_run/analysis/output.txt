@@ -1,0 +1,40 @@
+
+* Inspecting and Manipulating Text Data with Unix Tools
+
+* FASTA header lines begin with the > character.
+>CP009273.1 Escherichia coli BW25113, complete genome
+
+* Inspecting Data with Head and Tail
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM75055v1
+#!genome-build-accession NCBI_Assembly:GCA_000750555.1
+##sequence-region CP009273.1 1 4631469
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=679895
+CP009273.1	Genbank	region	1	4631469	.	+	.	ID=CP009273.1:1..4631469;Dbxref=taxon:679895;Is_circular=true;Name=ANONYMOUS;collection-date=2000;country=USA: Indiana;culture-collection=CGSC:7636;gbkey=Src;genome=chromosome;genotype=rrnB3 lacZ4787 hsdR514 (araBAD)567 (rhaBAD)568 rph-1;mol_type=genomic DNA;note=from B. L. Wanner laboratory;strain=K-12;substrain=BW25113
+CP009273.1	Genbank	gene	190	255	.	+	.	ID=gene-BW25113_0001;Name=thrL;gbkey=Gene;gene=thrL;gene_biotype=protein_coding;gene_synonym=ECK0001,JW4367;locus_tag=BW25113_0001
+CP009273.1	Genbank	CDS	190	255	.	+	0	ID=cds-AIN30539.1;Parent=gene-BW25113_0001;Dbxref=NCBI_GP:AIN30539.1;Name=AIN30539.1;gbkey=CDS;gene=thrL;locus_tag=BW25113_0001;product=thr operon leader peptide;protein_id=AIN30539.1;transl_table=11
+CP009273.1	Genbank	gene	4630759	4631445	.	+	.	ID=gene-BW25113_4403;Name=yjtD;gbkey=Gene;gene=yjtD;gene_biotype=protein_coding;gene_synonym=ECK4395,JW4366,lasT;locus_tag=BW25113_4403
+CP009273.1	Genbank	CDS	4630759	4631445	.	+	0	ID=cds-AIN34669.1;Parent=gene-BW25113_4403;Dbxref=NCBI_GP:AIN34669.1;Name=AIN34669.1;gbkey=CDS;gene=yjtD;locus_tag=BW25113_4403;product=putative methyltransferase;protein_id=AIN34669.1;transl_table=11
+###
+
+* Using grep, cut, sort, uniq to summarize columns of data
+4374 CDS
+4303 gene
+ 353 repeat_region
+ 206 pseudogene
+ 177 exon
+  85 tRNA
+  48 mobile_genetic_element
+  47 STS
+  43 antisense_RNA
+  32 sequence_feature
+  22 rRNA
+  20 ncRNA
+   3 pseudogenic_tRNA
+   2 tmRNA
+   1 region
+   1 origin_of_replication
+   1 SRP_RNA
+   1 RNase_P_RNA
